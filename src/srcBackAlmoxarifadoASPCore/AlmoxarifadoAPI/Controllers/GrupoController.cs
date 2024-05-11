@@ -1,6 +1,7 @@
 ﻿using AlmoxarifadoDomain.Models;
 using AlmoxarifadoServices;
 using Microsoft.AspNetCore.Mvc;
+using AlmoxarifadoServices.DTO;
 
 namespace AlmoxarifadoAPI.Controllers
 {
@@ -52,17 +53,17 @@ namespace AlmoxarifadoAPI.Controllers
         }
 
         [HttpPost]
-        public IActionResult CriarGrupo(Grupo Model)
+        public IActionResult CriarGrupo(GrupoPostDTO Model)
         {
             try
             {
-                _grupoService.CriarGrupo(Model);
-                return Ok("Grupo Criado");
+                var dados = _grupoService.CriarGrupo(Model);
+                return Ok(dados);
             }
             catch (Exception)
             {
 
-                return StatusCode(500, "Ocorreu um erro ao acessar os dados. Por favor, tente novamente mais tarde.");
+                return StatusCode(500, "Ocorreu um erro ao tentar adicionar dados. Por favor, tente novamente mais tarde.");
             }
 
         }

@@ -42,10 +42,11 @@ namespace AlmoxarifadoInfrastructure.Data.Repositories
                    .ToList().First(x => x?.ID_GRU == id);
         }
 
-        public void CriarGrupo(Grupo Model)
+        public Grupo CriarGrupo(Grupo Model)
         {
             _context.Add(Model);
             _context.SaveChanges();
+            return Model;
         }
 
     }
