@@ -12,7 +12,7 @@ namespace AlmoxarifadoInfrastructure.Data
     {
 
         public ContextSQL(DbContextOptions<ContextSQL> options) : base(options)
-        {   
+        {
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

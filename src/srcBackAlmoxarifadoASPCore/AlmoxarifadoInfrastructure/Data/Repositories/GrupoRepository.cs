@@ -2,6 +2,7 @@
 using AlmoxarifadoInfrastructure.Data.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -39,6 +40,12 @@ namespace AlmoxarifadoInfrastructure.Data.Repositories
                        SUGESTAO_GRU = g.SUGESTAO_GRU ?? ""
                    })
                    .ToList().First(x => x?.ID_GRU == id);
+        }
+
+        public void CriarGrupo(Grupo Model)
+        {
+            _context.Add(Model);
+            _context.SaveChanges();
         }
 
     }
