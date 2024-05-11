@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "303mnMURAjCnxXa5vJJvGnfa1UWvLGTRWXqUZmg7ra2OngH5nSOWTH8r+rxfeNbZYyA8QdQKLWOv5/2QM6JiuA==",
+  "dgSpecHash": "UMxscthyC2Pwdug9GsgicJTM1xN1Nsoigmg9QeIejEWDf7fqvyaX+VN0Ua7RNk/HsHTa58QZK9uudUo1wxYy3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\fusion\\Documents\\GitHub\\almoxarifadoback\\src\\srcBackAlmoxarifadoASPCore\\AlmoxarifadoServices\\AlmoxarifadoServices.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\fusion\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\fusion\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\fusion\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
     "C:\\Users\\fusion\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

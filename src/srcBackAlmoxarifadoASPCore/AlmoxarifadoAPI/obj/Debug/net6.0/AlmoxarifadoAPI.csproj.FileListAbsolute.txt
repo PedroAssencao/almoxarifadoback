@@ -142,3 +142,4 @@ C:\Users\fusion\Documents\GitHub\almoxarifadoback\src\srcBackAlmoxarifadoASPCore
 C:\Users\fusion\Documents\GitHub\almoxarifadoback\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoAPI\obj\Debug\net6.0\AlmoxarifadoAPI.pdb
 C:\Users\fusion\Documents\GitHub\almoxarifadoback\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoAPI\obj\Debug\net6.0\AlmoxarifadoAPI.genruntimeconfig.cache
 C:\Users\fusion\Documents\GitHub\almoxarifadoback\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoAPI\obj\Debug\net6.0\ref\AlmoxarifadoAPI.dll
+C:\Users\fusion\Documents\GitHub\almoxarifadoback\src\srcBackAlmoxarifadoASPCore\AlmoxarifadoAPI\bin\Debug\net6.0\AutoMapper.dll
